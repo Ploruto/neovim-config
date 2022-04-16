@@ -5,7 +5,7 @@ if impatient_ok then
   impatient.enable_profile()
 end
 
-local catppuccin = require("catppuccin")
+
 
 -- configure it
 local utils = require "core.utils"
