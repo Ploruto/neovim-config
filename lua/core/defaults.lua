@@ -1,6 +1,6 @@
 local config = {
 
-  colorscheme = "default_theme",
+  colorscheme = "catppuccin",
 
   plugins = {
     packer = {

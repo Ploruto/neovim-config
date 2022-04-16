@@ -9,6 +9,10 @@ local map = vim.api.nvim_set_keymap
 map("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 
+-- remap github copilot to <C-J>
+map("n", "<C-J>", "<cmd>lua require'core.utils'.github_copilot()<CR>", opts)
+
+
 -- Normal --
 if utils.is_available "smart-splits.nvim" then
   -- Better window navigation

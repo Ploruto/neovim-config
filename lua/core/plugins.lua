@@ -13,6 +13,9 @@ local astro_plugins = {
   {
     "wbthomason/packer.nvim",
   },
+  {
+    "lambdalisue/suda.vim"
+  },
 
   -- Optimiser
   { "lewis6991/impatient.nvim" },
@@ -22,6 +25,11 @@ local astro_plugins = {
 
   -- Popup API
   { "nvim-lua/popup.nvim" },
+
+  {
+	"catppuccin/nvim",
+	as = "catppuccin"
+  },
 
   -- Boost startup time
   {
@@ -51,6 +59,11 @@ local astro_plugins = {
   {
     "MunifTanjim/nui.nvim",
     module = "nui",
+  },
+  {
+    "github/copilot.vim",
+    module = "copilot",
+    as = "copilot",
   },
 
   -- Cursorhold fix
