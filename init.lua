@@ -8,7 +8,6 @@ end
 local catppuccin = require("catppuccin")
 
 -- configure it
-catppuccin.setup()
 local utils = require "core.utils"
 
 utils.disabled_builtins()
